@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Music Player"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:id="@+id/headline"
+        android:layout_marginTop="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headline"
+        android:id="@+id/list"
+        android:layout_marginTop="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song1">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/song1"
+                android:id="@+id/img1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goodbye"
+                android:layout_toRightOf="@+id/img1"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:textSize="25dp"
+                android:id="@+id/title1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lehek"
+                android:layout_toRightOf="@+id/img1"
+                android:layout_below="@+id/title1"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/singer1"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:12"
+                android:textColor="@color/white"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song2"
+            android:layout_below="@id/song1"
+            android:layout_marginTop="15dp"
+            >
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/song2"
+                android:id="@+id/img2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajnabee"
+                android:layout_toRightOf="@+id/img2"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:textSize="25dp"
+                android:id="@+id/title2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhuvan Bam"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_below="@+id/title2"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/singer2"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:01"
+                android:textColor="@color/white"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song3"
+            android:layout_below="@id/song2"
+            android:layout_marginTop="15dp"
+            >
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/song3"
+                android:id="@+id/img3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rap God"
+                android:layout_toRightOf="@+id/img3"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:textSize="25dp"
+                android:id="@+id/title3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eminem"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_below="@+id/title3"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/singer3"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6:03"
+                android:textColor="@color/white"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song4"
+            android:layout_below="@id/song3"
+            android:layout_marginTop="15dp"
+            >
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/song4"
+                android:id="@+id/img4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khatta Flow"
+                android:layout_toRightOf="@+id/img4"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:textSize="25dp"
+                android:id="@+id/title4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seedhe Maut Ft.kR$NA"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_below="@+id/title4"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/singer4"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:32"
+                android:textColor="@color/white"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song5"
+            android:layout_below="@id/song4"
+            android:layout_marginTop="15dp"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/song5"
+            android:id="@+id/img5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafa Dafa"
+            android:layout_toRightOf="@+id/img5"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"
+            android:id="@+id/title5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shady Mellow"
+            android:layout_toRightOf="@+id/img5"
+            android:layout_below="@+id/title5"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:id="@+id/singer5"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:43"
+            android:textColor="@color/white"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="25dp"
+            android:textSize="18dp"/>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/song6"
+            android:layout_below="@id/song5"
+            android:layout_marginTop="15dp"
+            >
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/song6"
+                android:id="@+id/img6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Other Place"
+                android:layout_toRightOf="@+id/img6"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:textSize="25dp"
+                android:id="@+id/title6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umair, Talha Anjum"
+                android:layout_toRightOf="@+id/img6"
+                android:layout_below="@+id/title6"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/singer6"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:10"
+                android:textColor="@color/white"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/list"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"
+            android:id="@+id/song_name"
+            android:layout_centerHorizontal="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/song_name"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/buttons">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/play"
+                android:id="@+id/play"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/pause"
+                android:id="@+id/pause"
+                android:layout_toEndOf="@+id/play"
+                android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+
+        <SeekBar
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/seek"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
