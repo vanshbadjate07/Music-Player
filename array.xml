@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="song_names">
+        <item>Goodbye</item>
+        <item>Ajnabee</item>
+        <item>Rap God</item>
+        <item>Khatta Flow</item>
+        <item>Rafa Dafa</item>
+        <item>No Other Place</item>
+    </string-array>
+</resources>
